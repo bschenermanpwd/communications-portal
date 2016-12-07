@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PWD Comm Portal</title>
+
+	<!-- External js -->
+	<!-- up to date jquery-->
+	<script src="/./js/jquery-3.1.1.min.js"></script>
+	<!-- External css -->
+
+	<!-- Author css -->
+	<link rel="stylesheet" type="text/css" href="/./css/style.css">
+
+	<!-- Author js -->
+	<script src="/./js/init.js"></script>
+</head>
+<body>
+	<div class="everything container">
+		<div class="navbar container">
+			<img class="logo" src="/./img/water-logo-white.png">
+			<span class="heading">Communications Portal</span>
+			<div class="menu-open">
+				<span>MENU</span>
+				<div class="trianglebtn"></div>
+			</div>
+			<div class="search">
+				<input type="text" name="searchbox" value="Search..." class="searchbox">
+				<div class="submit-btn">
+					<img src="/./img/magnifying-glass-white.png">
+				</div>
+			</div>
+
+		</div>
+
+		<div class="home-view container">
+			<div class="search container"></div>
+			<div class="grid container"></div>
+		</div>
+
+		<div class="asset-view container">
+			<div class="sidebar left"></div>
+			<div class="breadcrumb"></div>
+			<div class="grid">
+				<div class="asset"></div>
+			</div>
+
+		</div>
+
+		<div id="asset-details" class="overlay">
+
+			<!-- Button to close the overlay navigation -->
+			<a href="" class="closebtn">&times;</a>
+
+			<!-- Overlay content -->
+			<div class="overlay-content container">
+
+			</div>
+
+		</div>
+		<!--
+		<div class="overlay container">
+			<div class="info-tabs"></div>
+			<div class="exit btn"></div>
+		</div>
+		-->
+	</div>
+</body>
+</html>
